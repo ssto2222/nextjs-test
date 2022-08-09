@@ -1,5 +1,6 @@
 import Link from "next/link";
 import * as style from "../styles/common.module.scss";
+import Image from "next/image";
 function Header() {
   return (
     <header className={style.headerWrapper}>
@@ -7,7 +8,7 @@ function Header() {
         <div className={style.flexContainer}>
           <Link href="/">
             <a>
-              <img
+              <Image
                 src="/images/logo_yandmo.svg"
                 alt="logo"
                 width={50}

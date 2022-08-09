@@ -11,8 +11,8 @@ const SingleBlog = (props) => {
         <Image
           src={props.frontmatter.image}
           alt="blog-image"
-          height="500"
-          width="1000"
+          height={500}
+          width={1000}
         />
       </div>
       <div className={style.wrapper}>

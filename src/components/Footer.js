@@ -1,21 +1,22 @@
 import Link from "next/link";
 import * as style from "../styles/common.module.scss";
+import Image from "next/image";
 
 const Footer = () => {
   return (
     <footer className={style.footerWrapper}>
       <div className={style.insideContainer}>
         <a href="https://www.google.com">
-          <img src="/images/github.svg" alt="logo" />
+          <Image src="/images/github.svg" alt="logo" height={50} width={50} />
         </a>
         <a href="https://www.google.com">
-          <img src="/images/linkedin.svg" alt="logo" />
+          <Image src="/images/linkedin.svg" alt="logo" height={50} width={50} />
         </a>
         <a href="https://www.google.com">
-          <img src="/images/twitter.svg" alt="logo" />
+          <Image src="/images/twitter.svg" alt="logo" height={50} width={50} />
         </a>
         <a href="https://www.google.com">
-          <img src="/images/facebook.svg" alt="logo" />
+          <Image src="/images/facebook.svg" alt="logo" height={50} width={50} />
         </a>
         <hr />
         <Link href="/blog">
